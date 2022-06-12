@@ -1,0 +1,8 @@
+{%extends 'layout.html'%}
+{% block head%}
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{url_for('static',filename='js/d3dashboard.js')}}"></script>
+{% endblock%}
+{% block body%}
+<div id="map"></div>
+{% endblock body%}
